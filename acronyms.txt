@@ -1,0 +1,14 @@
+AFSA  Armed Forces Security [SIGINT] Agency
+[USA]
+AKEL  Cyprus Communist Party
+Amtorg  American-Soviet Trading Corporation, New York
+ASA  Army Security [SIGINT] Agency [USA]
+AVH  Hungarian security and intelligence agency
+AVO  predecessor of AVH
+BfV  FRG security service
+BND  FRG foreign intelligence agency
+CDU  Christian Democratic Union [FRG]
+Cheka All-Russian Extraordinary Commission for Combating Counter-Revolution and Sabotage: predecessor KGB (1917-22)
+CIA  Central Intelligence Agency [USA]
+COCOM  Coordinating Committee for East-West Trade
+Comecon  [Soviet Bloc] Council for Mutual Economic Aid
