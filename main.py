@@ -1,16 +1,19 @@
 import pandas as pd
+import os
 
-data = pd.read_csv('acronyms.csv', encoding='ISO-8859-1')
-
+num_rows = 125
+data = pd.read_csv('acronyms.csv', encoding='ISO-8859-1', nrows= num_rows)
 
 read = input("Enter the Correct Acronym: ")
-found = False
+i = 0
+run = True
 
-for i in range(len(data)):
-	if read == data.acronym[i]:
-		print("The Definition is:", data.defination[i])
-		found = True
-		
+while i < data.shape[0]:
+    if read == data.acronym[i]:
+        print("The Definition is:", data.defination[i])
+        run = False  # Break out of the loop once the acronym is found
+        break
+    i += 1
 
-if not found:
-	print("Acronym not found in the dataset.")
+if run:
+    print("Acronym not found in the dataset.")
